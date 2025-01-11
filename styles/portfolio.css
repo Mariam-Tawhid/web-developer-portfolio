@@ -158,4 +158,26 @@ main{
     margin-top: 50px;
 
 }
+/* Footer styles */
+footer{
+    padding: 130px 120px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-column{
+    width: 50%;
+}
+
+input[type="text"], footer input[type="email"], footer input[type="textarea"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width:100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
 
